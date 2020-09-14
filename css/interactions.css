@@ -28,6 +28,14 @@
 
 /* -- Row 1 --------- */
 
+img {
+  transition: transform .5s;
+  
+}
+
+img:hover {
+  transform: skewX(10deg);
+}
 
 
 /* -- Row 2 --------- */
@@ -40,7 +48,9 @@
 
 /* -- Logo ---------- */
 
-
+.logo:hover {
+  transform: rotate(-20deg);
+}
 
 
 
